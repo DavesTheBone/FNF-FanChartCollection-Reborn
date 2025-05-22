@@ -18,7 +18,7 @@ import flixel.util.FlxStringUtil;
 class DiscordClient
 {
 	public static var isInitialized:Bool = false;
-	private inline static final _defaultID:String = "1192736165472784445";
+	private inline static final _defaultID:String = "1374982651257163897";
 	public static var clientID(default, set):String = _defaultID;
 	private static var presence:DiscordPresence = #if (hxdiscord_rpc > "1.2.4") new DiscordPresence(); #else DiscordPresence.create(); #end
 	// hides this field from scripts and reflection in general
